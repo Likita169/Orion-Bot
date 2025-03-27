@@ -158,7 +158,7 @@ async def track_activity(member):
         updated = True
 
         # Gửi thông báo
-        
+        guild = member.guild
         channel_id = notification_channels.get(str(guild.id))
         if channel_id:
             channel = guild.get_channel(int(channel_id))
