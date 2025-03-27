@@ -1,0 +1,16 @@
+# Bỏ qua tệp cấu hình chứa token bot
+config.json
+
+# Bỏ qua tệp lưu dữ liệu hoạt động của thành viên
+activity_data.json
+
+# Bỏ qua thư mục ảo của Python (nếu có)
+venv/
+__pycache__/
+
+# Bỏ qua file log (nếu có)
+*.log
+
+# Bỏ qua các file tạm thời của hệ thống
+.DS_Store
+Thumbs.db
